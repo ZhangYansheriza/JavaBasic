@@ -27,13 +27,14 @@ public class PTra02_10 {
 		    h %= 200;
 
 		int b = (a+a);
-		int c = coffee+coffee;
-		int d = moneyInHand-c-b;
-		int e = d-b;
-		int f = moneyInHand-snack;
-		int g = f-h;
-		int i = moneyInHand-(g);
-			System.out.println(i);
+		int c = (coffee+coffee);
+		int d = (moneyInHand-c);
+		int e = (d-b);
+		int f = (moneyInHand-snack);
+		int g = (f-h);
+		int i = (moneyInHand-e);
+		int p = (moneyInHand-g);
+			System.out.println(i+p);
 
 
 	}
