@@ -44,8 +44,13 @@ public class PTra04_05 {
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
+
+					if(myHand > cpuHand) {
+						break;
+					}
 			if (cpuHand == 0) {
 				System.out.println("グー！");
+
 
 
 
@@ -57,9 +62,9 @@ public class PTra04_05 {
 			} else {
 				System.out.println("パー！！");
 
-
-
 			}
+
+
 
 		}
 	}
