@@ -10,7 +10,6 @@ public class PTra07_05 {
 	public static void main(String[] args) {
 
 		// ★ int型の配列arrayを宣言して、5個の領域を確保してください
-		int[]array = {1,2,3,4,5};
 		int[]array = new int [5];
 
 
