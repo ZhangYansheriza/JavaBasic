@@ -10,7 +10,8 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-		receive(100);
+		int receive = number();
+		System.out.println(receive);
 	}
 
 
